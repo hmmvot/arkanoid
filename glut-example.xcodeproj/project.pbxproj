@@ -15,9 +15,9 @@
 		FA174C8A176F813400398817 /* Platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA174C88176F813400398817 /* Platform.cpp */; };
 		FA174C8D176F851D00398817 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA174C8B176F851D00398817 /* GameObject.cpp */; };
 		FA174C90176F9DBB00398817 /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA174C8E176F9DBA00398817 /* Ball.cpp */; };
-		FA174C94176FCF5900398817 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA174C93176FCF5900398817 /* CoreGraphics.framework */; };
 		FA174C97176FDE6F00398817 /* Block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA174C95176FDE6F00398817 /* Block.cpp */; };
 		FA174C9A176FEA1C00398817 /* Label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA174C98176FEA1C00398817 /* Label.cpp */; };
+		FA174C9C1770028600398817 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA174C9B1770028600398817 /* CoreGraphics.framework */; };
 		FA396F48176B9C50007D10E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA396F47176B9C50007D10E6 /* main.cpp */; };
 		FA396F51176B9D46007D10E6 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA396F50176B9D46007D10E6 /* GLUT.framework */; };
 		FA396F53176B9D84007D10E6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA396F52176B9D84007D10E6 /* OpenGL.framework */; };
@@ -54,11 +54,11 @@
 		FA174C8C176F851D00398817 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
 		FA174C8E176F9DBA00398817 /* Ball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ball.cpp; sourceTree = "<group>"; };
 		FA174C8F176F9DBA00398817 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
-		FA174C93176FCF5900398817 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreGraphics.framework; sourceTree = "<group>"; };
 		FA174C95176FDE6F00398817 /* Block.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Block.cpp; sourceTree = "<group>"; };
 		FA174C96176FDE6F00398817 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
 		FA174C98176FEA1C00398817 /* Label.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Label.cpp; sourceTree = "<group>"; };
 		FA174C99176FEA1C00398817 /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		FA174C9B1770028600398817 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = "/Users/hmmvot/Workspace/arkanoid/glut-example/../../../../../System/Library/Frameworks/CoreGraphics.framework"; sourceTree = "<absolute>"; };
 		FA396F44176B9C50007D10E6 /* glut-example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "glut-example"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA396F47176B9C50007D10E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FA396F50176B9D46007D10E6 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../../../System/Library/Frameworks/GLUT.framework; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 			files = (
 				FA396F51176B9D46007D10E6 /* GLUT.framework in Frameworks */,
 				FA396F53176B9D84007D10E6 /* OpenGL.framework in Frameworks */,
-				FA174C94176FCF5900398817 /* CoreGraphics.framework in Frameworks */,
+				FA174C9C1770028600398817 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +134,7 @@
 		FA396F46176B9C50007D10E6 /* glut-example */ = {
 			isa = PBXGroup;
 			children = (
-				FA174C93176FCF5900398817 /* CoreGraphics.framework */,
+				FA174C9B1770028600398817 /* CoreGraphics.framework */,
 				FA396F52176B9D84007D10E6 /* OpenGL.framework */,
 				FA396F50176B9D46007D10E6 /* GLUT.framework */,
 				FA174C77176F33CE00398817 /* Simple Engine */,
